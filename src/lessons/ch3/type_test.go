@@ -1,6 +1,9 @@
 package type_test
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 type MyInt int64
 
@@ -16,12 +19,15 @@ func TestPoint(t *testing.T) {
 	a := 1
 	aPtr := &a // a 的内存地址
 	// aPtr = aPtr + 1 // 支持指针类型， 但不支持指针运算， 用指针访问连续的字符空间或者数组
-	t.Log(a, aPtr)
+	fmt.Println(a, aPtr)
+	// t.Log(a, aPtr)
 	// t.Log("%T %T", a, aPtr)
 }
 
 func TestString(t *testing.T) {
 	var s string // string  默认是空字符串
-	t.Log("*" + s + "*")
-	t.Log(len(s))
+	fmt.Println("*" + s + "*")
+	fmt.Println(len(s))
+	// t.Log("*" + s + "*")
+	// t.Log(len(s))
 }

@@ -29,7 +29,6 @@ func TestSwitchMultiCase(t *testing.T) {
 			t.Log("Odd")
 		default:
 			t.Log("it is not 0-3")
-
 		}
 	}
 }

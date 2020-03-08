@@ -1,11 +1,14 @@
 package loop_test
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func TestWhileLoop(t *testing.T) {
 	n := 0
 	for n < 5 {
-		t.Log(n)
+		fmt.Println(n)
 		n++
 	}
 }

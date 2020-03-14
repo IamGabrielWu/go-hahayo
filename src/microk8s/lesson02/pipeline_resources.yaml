@@ -18,4 +18,4 @@ spec:
   type: image
   params:
     - name: url
-      value: localhost:32000/leeroy-web
+      value: asia.gcr.io/gabrielhome/tekton/lesson02/leeroy-web

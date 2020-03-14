@@ -3,7 +3,7 @@ kind: TaskRun
 metadata:
   name: build-docker-image-from-git-source
 spec:
-  serviceAccountName: default
+  serviceAccountName: tekton
   taskRef:
     name: build-docker-image-from-git-source
   params:

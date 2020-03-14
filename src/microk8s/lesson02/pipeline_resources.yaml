@@ -18,4 +18,4 @@ spec:
   type: image
   params:
     - name: url
-      value: asia.gcr.io/gabrielhome/tekton/lesson02/leeroy-web
+      value: gcr.io/gabrielhome/tekton/lesson01:leeroy-web

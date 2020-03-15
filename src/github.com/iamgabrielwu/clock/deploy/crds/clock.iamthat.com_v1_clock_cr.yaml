@@ -1,0 +1,9 @@
+apiVersion: clock.iamthat.com/v1
+kind: Clock
+metadata:
+  name: example-clock
+spec:
+  # Add fields here
+  reset: true
+  # current_day: "2020-01-01"
+  # current_time: "01:01"

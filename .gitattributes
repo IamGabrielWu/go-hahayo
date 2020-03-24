@@ -1,2 +1,3 @@
 src/microk8s/secrets/gcr-pull.json filter=git-crypt diff=git-crypt
 src/huaweicloud/secrets/auth.json filter=git-crypt diff=git-crypt
+src/tushare/token filter=git-crypt diff=git-crypt

@@ -28,6 +28,11 @@ func TestDrill(t *testing.T) {
 // 倒序所有字符
 // 数组指针传递， &letters，--- 这是指针， 方法名 letters *[]string， 指定传入方式为指针
 // 访问指针表示的数组的内部值 (*letters)[i] --- (*letters) 为指针代指向的值
+
+// &xxx -> 指针
+// function abc(xxx *type){}  *type 表示以指针传入
+// *xxx  表示指针所指向的值。 实际的值。
+
 func exchangeLettersInArray(letters *[]string) {
 	mid := len(*letters) / 2
 	last := len(*letters) % 2
